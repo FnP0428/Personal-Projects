@@ -1,0 +1,87 @@
+
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #F5F5F5;
+  color: #F05454;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+  font-weight: bold;
+  font-size: 6rem;
+  color: #F05454;
+  padding: 75px 0 5px;
+}
+.cal {
+  padding-top: 45px;
+}
+
+.top-tagline {
+  margin-bottom: 50px;
+  color: #30475E;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #30475E;
+}
+
+.lable {
+  padding-bottom: 15px;
+  color: #F5F5F5;
+}
+.box {
+  height: 75px;
+  width: 90px;
+  border: solid 0.1rem #F5F5F5;
+  border-radius: 5px;
+  background-color: #F5F5F5;
+  color: #30475E;
+  font-size: 2rem;
+}
+.btn {
+  height: 75px;
+
+}
+
+
+.info {
+  font-size: 1.25rem;
+  font-weight: bold;
+
+}
+
+.a, .b {
+  padding-left: 15px;
+}
+.c {
+  padding: 13px 10px;
+}
+
+.footnote {
+  width: 40%;
+  margin: auto;
+  padding: 15px;
+  line-height: 1.5rem;
+  color: #30475E;
+  font-style: italic;
+
+
+}
+.copyright-line {
+  padding-top: 75px;
+  color: #30475E;
+  font-size: 0.8rem;
+}
