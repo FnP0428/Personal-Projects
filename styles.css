@@ -1,0 +1,94 @@
+
+/* Removal of scroll buttons */
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Main page layout */
+
+body {
+  text-align: center;
+  background-color: #F5F5F5;
+  color: #F05454;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+  font-weight: bold;
+  font-size: 4.8rem;
+  color: #F05454;
+  padding: 75px 0 5px;
+}
+
+.top-tagline {
+  margin-bottom: 75px;
+  color: #30475E;
+  font-style: italic;
+  font-size: 1.45rem;
+
+}
+
+.info {
+  padding-bottom: 15px;
+  font-size: 1.15rem;
+  font-weight: bold;
+  width: 70%;
+  margin:auto;
+}
+
+/* Calculator Box */
+
+.row {
+  padding: 50px 70px 0 70px;
+  background-color: #30475E;
+}
+
+.cal-content {
+  padding-bottom: 45px;
+}
+
+/* Boxes inside Calculator Box */
+
+.lable {
+  padding-bottom: 5px;
+  color: #F5F5F5;
+}
+.box {
+  height: 75px;
+  width: 90px;
+  border: solid 0.1rem #F5F5F5;
+  border-radius: 5px;
+  background-color: #F5F5F5;
+  color: #30475E;
+  font-size: 2rem;
+}
+.btn {
+  height: 75px;
+  margin-top: 37px;
+}
+
+.a, .b {
+  padding-left: 15px;
+}
+.c {
+  padding: 13px 10px;
+}
+
+/* Bottom of page */
+.footnote {
+  width: 60%;
+  margin: auto;
+  padding: 10px 0;
+  line-height: 1.5rem;
+  color: #30475E;
+  font-style: italic;
+
+
+}
+.copyright-line {
+  padding-top: 75px;
+  color: #30475E;
+  font-size: 0.8rem;
+}
